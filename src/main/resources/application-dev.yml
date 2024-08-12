@@ -1,0 +1,78 @@
+logging:
+  pattern:
+    console: "[Chassis Extractor] %clr(%d{HH:mm:ss.SSS}){faint} %clr(${LOG_LEVEL_PATTERN:%5p}) %clr(---){faint} %clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:%wEx}"
+  level:
+    org:
+      springframework:
+        web:
+          filter:
+            reactive=DEBUG:
+        context: DEBUG
+        test:
+          context:
+            cache: debug
+
+        boot:
+          context:
+            properties: DEBUG
+server:
+  port: 11001
+  ssl:
+    protocols: false
+
+
+
+
+api:
+  web:
+    clients:
+      login:
+        post:
+
+springdoc:
+  use-management-port: true
+  show-actuator : true
+
+
+management:
+  server:
+    port: 9090
+  endpoints:
+    web:
+      exposure:
+        include: openapi, swagger-ui
+
+spring:
+  application:
+    name: mentor-doctor
+    description: Una aplicación de ejemplo
+    ##Config GCP Gemini
+    project-id: mentor-379
+    location: us-central1
+    generative-model-name: gemini-1.5-flash-preview-0514
+  mvc:
+    log-resolved-exception: false
+
+  config:
+    ai:
+      vertex:
+        credentials: /Users/eber/Documents/Proyectos/IA/private/mentor-379-f1b92bba1d3d.json
+        project-id: mentor-379
+  data:
+
+  datasource:
+
+  cloud:
+    config:
+      discovery:
+        enabled : false
+  codec:
+    max-in-memory-size: 500MB
+
+
+  main:
+    banner-mode: OFF
+  devtools:
+    restart:
+      additional-paths:
+        - conf/**
