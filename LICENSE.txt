@@ -1,0 +1,15 @@
+Licencia Propietaria - Todos los Derechos Reservados
+
+Copyright (c) 2024 Eber Cruz
+
+1. Propiedad: Este software y su código fuente asociado son propiedad exclusiva de Eber Cruz, desarrollado para participar en google competition.
+
+2. Uso Prohibido: Se prohíbe expresamente el uso, copia, modificación, fusión, publicación, distribución, sublicencia y/o venta de copias de este Software.
+
+3. Prohibición de Alojamiento Público: Queda estrictamente prohibido el alojamiento de este software en plataformas públicas de control de versiones, incluyendo pero no limitado a GitHub, GitLab, BitBucket, o similares.
+
+4. Sin Licencia Implícita: Ninguna parte de este software puede ser reproducida, distribuida o transmitida en cualquier forma o por cualquier medio sin el permiso expreso por escrito del propietario del copyright.
+
+5. Violaciones: Cualquier violación de los términos de esta licencia resultará en la terminación inmediata de cualquier derecho que pueda haber sido otorgado y puede estar sujeta a acciones legales.
+
+ESTE SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA.
