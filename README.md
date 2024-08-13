@@ -10,4 +10,4 @@ Maven `mvn clean install` for a dev server. Navigate to `http://localhost:11001/
 
 ## Code scaffolding
 
-
+![Image text]([https://raw.githubusercontent.com/ebercruzf/microservice-chassis-account/main/docs/HexagonalArchitecture%20.png](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/overview?hl=es-419))
